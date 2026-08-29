@@ -73,7 +73,7 @@ Below is a comparison of leading commercial Inventory & Order Management platfor
 
 Self-hosted, transparent, and extensible open-source solutions sorted by **GitHub Stars (Descending)**.
 
-| Project & Repository | GitHub Stars | Primary Language / Stack | Key Features & Best Use Case |
+| Project & Repository | GitHub_Stars | Primary Language / Stack | Key Features & Best Use Case |
 | :--- | :--- | :--- | :--- |
 | **[Odoo Community](https://github.com/odoo/odoo)** | [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python, JavaScript | Complete modular ERP ecosystem. The Inventory module provides double-entry stock management, automated replenishment, cross-docking, drop-shipping, and barcode scanning. |
 | **[Snipe-IT](https://github.com/snipe/snipe-it)** | [![GitHub stars](https://img.shields.io/github/stars/snipe/snipe-it?style=social&color=white)](https://github.com/snipe/snipe-it/stargazers) | PHP (Laravel), Vue | Industry standard for IT asset management (ITAM). Tracks hardware lifecycle, software licenses, component accessories, checkouts, and barcode/QR audits. |
