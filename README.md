@@ -22,35 +22,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Cin7 (including Cin7 Core / DEAR Systems)](https://www.cin7.com/)**  
-  Cloud inventory and order management platform popular with multichannel retailers and wholesalers, offering stock control, warehousing, and channel sync.
-
-- **[Katana](https://katanamrp.com/)**  
-  Cloud manufacturing resource planning (MRP) and inventory platform focused on real-time stock visibility, production planning, and order fulfillment for makers.
-
-- **[Zoho Inventory](https://www.zoho.com/inventory/)**  
-  Affordable cloud inventory management solution tightly integrated with the Zoho suite, supporting multichannel sales, order tracking, and warehouse management.
-
-- **[Unleashed](https://www.unleashedsoftware.com/)**  
-  Inventory and operations platform aimed at wholesale, distribution, and light manufacturing businesses with strong purchasing and stock-control features.
-
-- **[Sortly](https://www.sortly.com/)**  
-  Visual, easy-to-use inventory tracking platform popular with smaller teams and non-traditional inventory use cases (assets, supplies, equipment).
-
-- **[Fishbowl](https://www.fishbowlinventory.com/)**  
-  Inventory and warehouse management system well-known for deep QuickBooks integration and solid manufacturing/warehouse capabilities.
-
-- **[NetSuite Inventory Management](https://www.netsuite.com/)**  
-  Enterprise-grade inventory and warehouse management within the Oracle NetSuite ERP suite, used by larger and multi-subsidiary organizations.
-
-- **[Finale Inventory](https://www.finaleinventory.com/)**  
-  Cloud inventory management platform focused on accurate stock tracking, multichannel fulfillment, and operational control for growing businesses.
-
-- **[Skubana (Extensiv)](https://www.extensiv.com/)**  
-  Multichannel inventory and order management platform (now part of broader Extensiv offerings) aimed at high-volume ecommerce operations.
-
-- **[Other notable platforms](https://www.cin7.com/)**  
-  Additional players include inFlow Inventory, Linnworks, Brightpearl, and various vertical or regional inventory solutions.
+| Platform | Key Focus & Capabilities | Starting Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Cin7 (Cin7 Core / DEAR)](https://www.cin7.com/)** | Multichannel retail and wholesale inventory, order management, warehousing, and channel sync. | **$349/month** (Standard plan; includes 5 users, 2 integrations, 6,000 orders/yr) | **14-day free trial** with full feature access (no credit card required; up to 30 days for select add-on modules) |
+| **[Katana](https://katanamrp.com/)** | Cloud MRP and inventory platform with real-time stock visibility, production scheduling, and order fulfillment. | **$299/month** (Core plan, billed annually) | **Forever-free plan** limited to 30 SKUs and 3 inventory locations; **15-day free trial** with unrestricted full features |
+| **[Zoho Inventory](https://www.zoho.com/inventory/)** | Scalable cloud inventory integrated with Zoho suite, multichannel tracking, dropshipping, and warehousing. | **$29/month** (Standard plan billed annually; includes 500 orders/mo, 2 users, 1 warehouse) | **Forever-free plan** limited to 50 orders/month, 1 user, and 1 warehouse location; **14-day free trial** for paid tiers |
+| **[Sortly](https://www.sortly.com/)** | Visual, mobile-first inventory and asset tracking designed for small businesses, supplies, and equipment. | **$49/month** (Advanced plan billed annually; includes 2 users and 2,000 items) | **Forever-free plan** limited to 1 user and 100 unique items (1 custom field); **14-day free trial** for paid plans |
+| **[Unleashed](https://www.unleashedsoftware.com/)** | Inventory and supply chain management for wholesale, distribution, and light manufacturing. | **$399/month** (Core plan, billed annually) | **14-day free trial** with complete platform access and sandbox data (no credit card required) |
+| **[Fishbowl](https://www.fishbowlinventory.com/)** | Barcode-driven inventory, warehouse management, and manufacturing with deep QuickBooks integrations. | **$229/month** (Essentials plan, 2 users, billed annually) | **14-day trial database access** via sales-assisted sandbox / guided 1:1 live product evaluation demo |
+| **[inFlow Inventory](https://www.inflowinventory.com/)** | All-in-one inventory and order management system with built-in barcode generation and B2B portal. | **$129/month** (Entrepreneur plan billed annually; 2 users, 1 location, 100 orders/mo) | **14-day free trial** with full feature access and unlimited products (no credit card required) |
+| **[Finale Inventory](https://www.finaleinventory.com/)** | High-volume multichannel inventory tracking, warehouse fulfillment, and mobile barcode scanning. | **$499/month** (Essentials tier, month-to-month terms) | **14-day free trial** with full functionality including mobile barcode scanning app testing |
+| **[NetSuite Inventory Management](https://www.netsuite.com/)** | Enterprise ERP module for lot/serial tracking, demand planning, matrix items, and multi-subsidiary stock. | **~$999/month** base platform license + **~$99/user/month** (annual contract) | **14-day guided demo account** provisioned via certified Oracle/NetSuite partner sandbox |
+| **[Skubana (Extensiv)](https://www.extensiv.com/)** | Multichannel order and inventory orchestration for high-velocity ecommerce brands and 3PLs. | **~$999/month** (Extensiv Order Manager enterprise base tier; Integration Manager starts at **$39/month**) | **30-day free trial** for Integration Manager; live tailored sandbox walkthrough demo for Order Manager |
+| **[Linnworks](https://www.linnworks.com/)** | Multichannel marketplace inventory synchronization, warehouse automation, and shipping management. | **~$1,000/month** (tier scaled on GMV and monthly processed order volume) | **Live interactive demo** with tailored workflow evaluation and customized trial environment upon request |
+| **[Brightpearl](https://www.brightpearl.com/)** | Retail operating system (ROS) built for omnichannel merchants, including POS, CRM, and accounting. | **~$1,500/month** (bespoke merchant tier with unlimited user seats included) | **1:1 consultative demo** and guided Technical Solution Proposal (TSP) scoping session |
 
 ## Open-Source GitHub Projects
 
