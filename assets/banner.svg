@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#1e1b4b;#0f172a" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#1e293b">
+        <animate attributeName="stop-color" values="#1e293b;#0f172a;#1e293b" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#020617">
+        <animate attributeName="stop-color" values="#020617;#172554;#020617" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#38bdf8" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#38bdf8;#818cf8" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 46px; fill: url(#textGrad); }
+      .subtitle { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
+      .tagline { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 15px; fill: #64748b; }
+      .badge-text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #e2e8f0; }
+      
+      @keyframes pulseGrid {
+        0%, 100% { opacity: 0.12; }
+        50% { opacity: 0.28; }
+      }
+      .grid-pattern { animation: pulseGrid 4s ease-in-out infinite; }
+
+      @keyframes scanbeam {
+        0% { transform: translateY(0px); opacity: 0.2; }
+        50% { opacity: 0.8; }
+        100% { transform: translateY(180px); opacity: 0.2; }
+      }
+      .scan-line { animation: scanbeam 3.5s ease-in-out infinite; }
+
+      @keyframes floatBox {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(2deg); }
+      }
+      .floating-icon { animation: floatBox 5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Geometric Grid Background Pattern -->
+  <g class="grid-pattern" stroke="#38bdf8" stroke-width="0.8" stroke-dasharray="4,6">
+    <line x1="100" y1="0" x2="100" y2="360" />
+    <line x1="200" y1="0" x2="200" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="500" y1="0" x2="500" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="700" y1="0" x2="700" y2="360" />
+    <line x1="800" y1="0" x2="800" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+    <line x1="1100" y1="0" x2="1100" y2="360" />
+
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+  </g>
+
+  <!-- Decorative Outer Glow Border -->
+  <rect x="3" y="3" width="1194" height="354" rx="14" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" stroke-opacity="0.4" />
+
+  <!-- Left Icon Graphic: 3D Warehouse Inventory Box & Scanner -->
+  <g class="floating-icon" transform="translate(80, 85)">
+    <!-- Isometric Cube / Pallet -->
+    <path d="M 90 20 L 160 55 L 90 90 L 20 55 Z" fill="#0284c7" fill-opacity="0.85" stroke="#38bdf8" stroke-width="2" />
+    <path d="M 20 55 L 90 90 L 90 170 L 20 135 Z" fill="#0369a1" fill-opacity="0.9" stroke="#38bdf8" stroke-width="2" />
+    <path d="M 160 55 L 90 90 L 90 170 L 160 135 Z" fill="#0c4a6e" fill-opacity="0.95" stroke="#38bdf8" stroke-width="2" />
+
+    <!-- Top details / tape -->
+    <path d="M 55 37 L 125 72" stroke="#e0f2fe" stroke-width="2.5" stroke-dasharray="6,4" />
+
+    <!-- Barcode lines on front-left face -->
+    <line x1="35" y1="80" x2="35" y2="115" stroke="#38bdf8" stroke-width="3" />
+    <line x1="42" y1="83" x2="42" y2="118" stroke="#38bdf8" stroke-width="1.5" />
+    <line x1="47" y1="85" x2="47" y2="120" stroke="#38bdf8" stroke-width="4" />
+    <line x1="56" y1="89" x2="56" y2="124" stroke="#38bdf8" stroke-width="2" />
+    <line x1="63" y1="92" x2="63" y2="127" stroke="#38bdf8" stroke-width="3" />
+    <line x1="72" y1="96" x2="72" y2="131" stroke="#38bdf8" stroke-width="1.5" />
+
+    <!-- Laser Scanner Line -->
+    <line class="scan-line" x1="0" y1="15" x2="180" y2="15" stroke="#f43f5e" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="stroke" values="#f43f5e;#ec4899;#06b6d4;#f43f5e" dur="4s" repeatCount="indefinite" />
+    </line>
+  </g>
+
+  <!-- Center-Right Content -->
+  <g transform="translate(300, 75)">
+    <!-- Category Pill -->
+    <rect x="0" y="0" width="220" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="14" cy="14" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="19" class="badge-text" fill="#38bdf8">CURATED ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="0" y="75" class="title">Awesome Inventory Management</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="115" class="subtitle">Open-Source Solutions &amp; Enterprise SaaS Platforms</text>
+
+    <!-- Tagline & Scope -->
+    <text x="0" y="145" class="tagline">Stock Control • Warehouse Management (WMS) • MRP / BOM • Barcode Sync • Multichannel Fulfillment</text>
+
+    <!-- Feature Highlights / Pills -->
+    <g transform="translate(0, 175)">
+      <rect x="0" y="0" width="130" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="14" y="21" class="badge-text">📦 Stock Control</text>
+
+      <rect x="142" y="0" width="148" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="156" y="21" class="badge-text">🏭 Cloud MRP/BOM</text>
+
+      <rect x="302" y="0" width="144" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="316" y="21" class="badge-text">📡 Barcode &amp; RFID</text>
+
+      <rect x="458" y="0" width="158" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="472" y="21" class="badge-text">🔄 Multichannel Sync</text>
+
+      <rect x="628" y="0" width="156" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="642" y="21" class="badge-text">⚡ Open Source ERP</text>
+    </g>
+  </g>
+</svg>
